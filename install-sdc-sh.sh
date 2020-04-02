@@ -14,7 +14,7 @@ cd streamsets-datacollector-3.13.0-el6-all-rpms
 #
 #INSTALAR PACOTES
 #
-sudo yum localinstall streamsets*.rpm -y
+sudo yum localinstall streamsets*.rpm
 #
 #
 #ADICIONAR LINHA DE CONFIGURACAO NO JAVA_HOME 8 PARA START DO SDC
