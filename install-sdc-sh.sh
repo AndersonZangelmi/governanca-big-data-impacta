@@ -20,8 +20,8 @@ sudo yum localinstall streamsets*.rpm
 #ADICIONAR LINHA DE CONFIGURACAO NO JAVA_HOME 8 PARA START DO SDC
 #ADICIONAR TAMBEM LINHA DE CONFIGURACAO DE LIMITS DO LINUX
 #
-sudo sed -i '37 i\export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk.x86_64"' >> /etc/init.d/sdc
-sudo sed -i '38 i\ulimit -n 32768' >> /etc/init.d/sdc
+sudo sed -i '37 i\export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk.x86_64"' /etc/init.d/sdc
+sudo sed -i '38 i\ulimit -n 32768' /etc/init.d/sdc
 #
 #ADD JDBC DRIVER TO SDC
 #
