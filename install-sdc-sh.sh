@@ -29,7 +29,7 @@ sudo cp /usr/lib/sentry/lib/mysql-connector-java.jar /opt/streamsets-datacollect
 #
 #REMOVE FILE PID
 #
-sudo /var/lib/sdc/sdc.pid
+sudo rm /var/lib/sdc/sdc.pid
 #
 #START STATUS
 #
